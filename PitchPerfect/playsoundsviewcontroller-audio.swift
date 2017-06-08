@@ -155,11 +155,11 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
     
     func setPlayButtonsEnabled(_ enabled: Bool) {
         snailButton.isEnabled = enabled
-        chipmunkButton.isEnabled = enabled
+        squirrelButton.isEnabled = enabled
         rabbitButton.isEnabled = enabled
-        vaderButton.isEnabled = enabled
+        darthButton.isEnabled = enabled
         echoButton.isEnabled = enabled
-        reverbButton.isEnabled = enabled
+        birdButton.isEnabled = enabled
     }
 
     func showAlert(_ title: String, message: String) {

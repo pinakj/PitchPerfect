@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710FFAD11EC992CD00C36EA0 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FFAD01EC992CD00C36EA0 /* PlaySoundsViewController.swift */; };
+		710FFAD31EC9C96400C36EA0 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FFAD21EC9C96400C36EA0 /* playsoundsviewcontroller-audio.swift */; };
 		716C525E1EC748B600081179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C525D1EC748B600081179 /* AppDelegate.swift */; };
 		716C52601EC748B600081179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C525F1EC748B600081179 /* ViewController.swift */; };
 		716C52631EC748B600081179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716C52611EC748B600081179 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		710FFAD01EC992CD00C36EA0 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		710FFAD21EC9C96400C36EA0 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		716C525A1EC748B600081179 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716C525D1EC748B600081179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		716C525F1EC748B600081179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				716C52641EC748B600081179 /* Assets.xcassets */,
 				716C52661EC748B600081179 /* LaunchScreen.storyboard */,
 				716C52691EC748B600081179 /* Info.plist */,
+				710FFAD01EC992CD00C36EA0 /* PlaySoundsViewController.swift */,
+				710FFAD21EC9C96400C36EA0 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					716C52591EC748B600081179 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W3T3SFW2YH;
 						ProvisioningStyle = Automatic;
 					};
 					716C526D1EC748B600081179 = {
@@ -260,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				716C52601EC748B600081179 /* ViewController.swift in Sources */,
+				710FFAD11EC992CD00C36EA0 /* PlaySoundsViewController.swift in Sources */,
 				716C525E1EC748B600081179 /* AppDelegate.swift in Sources */,
+				710FFAD31EC9C96400C36EA0 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3T3SFW2YH;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinak.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +435,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3T3SFW2YH;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Pinak.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +518,7 @@
 				716C52841EC748B600081179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716C52851EC748B600081179 /* Build configuration list for PBXNativeTarget "PitchPerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +527,7 @@
 				716C52871EC748B600081179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716C52881EC748B600081179 /* Build configuration list for PBXNativeTarget "PitchPerfectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +536,7 @@
 				716C528A1EC748B600081179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
